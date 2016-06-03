@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "----> Installing node-bigint dependencies"
+
+sudo aptitude install libgmp3-dev
