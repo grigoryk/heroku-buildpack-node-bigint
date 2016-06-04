@@ -2,4 +2,4 @@
 
 echo "----> Installing node-bigint dependencies"
 
-sudo aptitude install libgmp3-dev
+apt-get -y --force-yes -d install --reinstall libgmp3-dev
